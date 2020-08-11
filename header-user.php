@@ -59,9 +59,9 @@
                 </li>
                 
                 <li>
-                    <a href="dashboard/credit/index.php">
+                    <a href="main.php">
                         <i class="ti-wallet"></i>
-                        <p>Credit Report</p>
+                        <p>Income Statement</p>
                     </a>
                 </li>
                
