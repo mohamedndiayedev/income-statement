@@ -64,48 +64,7 @@
                         <p>Credit Report</p>
                     </a>
                 </li>
-               <li>
-                    <a href="dashboard/debit/index.php">
-                        <i class="ti-wallet"></i>
-                        <p>Debit Report</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="dashboard/income/index.php">
-                        <i class="ti-wallet"></i>
-                        <p>Income Report</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="dashboard/cashcol.php">
-                        <i class="ti-money"></i>
-                        <p>Income Updates </p>
-                    </a>
-                </li>
-                <li>
-                    <a href="dashboard/income-expense.php">
-                        <i class="ti-money"></i>
-                        <p>Book Income & Expense </p>
-                    </a>
-                </li>
-                <li>
-                    <a href="dashboard/loan-tool">
-                        <i class="ti-layers-alt"></i>
-                        <p>Loan Tool Calculator</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="dashboard/simple-calculator">
-                        <i class="ti-layers-alt"></i>
-                        <p>Math Calculator</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="currency-converter">
-                        <i class="ti-money"></i>
-                        <p>Currency Converter</p>
-                    </a>
-                </li>
+               
                 <li>
                     <a href="dashboard/adminprofile.php">
                         <i class="ti-user"></i>
