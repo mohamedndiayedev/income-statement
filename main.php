@@ -1,3 +1,6 @@
+                <?php include("libs/alerts.php"); ?>
+                <?php include("dashboard/database/dbconfig.php"); ?>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
