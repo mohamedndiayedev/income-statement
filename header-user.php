@@ -59,7 +59,7 @@
                 </li>
                 <ul class="nav">
                 <li class="active">
-                    <a href="default-customer.php">
+                    <a href="dashboard/default-customer.php">
                         <i class="ti-files"></i>
                         <p>Default Customer</p>
                     </a>
