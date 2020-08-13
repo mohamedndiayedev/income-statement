@@ -57,6 +57,13 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
+                <ul class="nav">
+                <li class="active">
+                    <a href="default-customer.php">
+                        <i class="ti-files"></i>
+                        <p>Default Customer</p>
+                    </a>
+                </li>
                 
                 <li>
                     <a href="#">
