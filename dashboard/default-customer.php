@@ -49,20 +49,11 @@ include('includes/navbar-customer.php');
          </div>
                    <div class="form-group">
                 <label>Property Location</label>
-                <input class="form-control" type="text" name="amount" placeholder="property *">
+                <input class="form-control" type="text" name="property" placeholder="property *">
          </div>
                    <div class="form-group">
-                <label>Balance (GMD)</label>
-                <input class="form-control" type="number" name="amount" placeholder="balance in GMD *">
-         </div>
-         <div class="form-group">
-                <label>Location (Property Location)</label>
-                <input class="form-control" type="text" name="property" placeholder="Location *">
-         </div>
-         <div class="form-group">
-                <label>Balance (Amount Left)</label>
-                <input class="form-control" type="number" name="balance" placeholder="Balance in GMD *">
-         </div>
+                <label>Balance left (GMD)</label>
+                <input class="form-control" type="number" name="balance" placeholder="balance in GMD *">
          </div>
 
         </div>
