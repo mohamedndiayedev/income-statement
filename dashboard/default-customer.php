@@ -49,7 +49,7 @@ include('includes/navbar-customer.php');
          </div>
          <div class="form-group">
                 <label>Location (Property Location)</label>
-                <input class="form-control" type="number" name="property" placeholder="Location *">
+                <input class="form-control" type="text" name="property" placeholder="Location *">
          </div>
          <div class="form-group">
                 <label>Balance (Amount Left)</label>
