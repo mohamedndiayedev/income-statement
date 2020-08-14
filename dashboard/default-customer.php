@@ -55,7 +55,7 @@ include('includes/navbar-customer.php');
                 <label>Balance left (GMD)</label>
                 <input class="form-control" type="number" name="balance" placeholder="balance in GMD *">
          </div>
-
+</div>
         </div>
 
         <div class="modal-footer">
