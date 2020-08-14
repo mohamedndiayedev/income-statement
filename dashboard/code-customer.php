@@ -1,7 +1,7 @@
 <?php
 session_start();
  $connection = mysqli_connect("mkorvuw3sl6cu9ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","iigi5330azzahj3c","smij1gf9l7l65kwi","jj0m1ku5w7a37l39");
-    if(isset($_POST['customerbtn'])) 
+   if(isset($_POST['customerbtn'])) 
  {
    $name = $_POST['name'];
    $number = $_POST['number'];
@@ -9,9 +9,11 @@ session_start();
    $month = $_POST['month'];
    $amount = $_POST['amount'];
    $status = $_POST['status'];
+   $status = $_POST['property'];
+   $status = $_POST['balance'];
 
     $query = "INSERT INTO customer (name,number,date,month,amount,status) 
-    VALUES('$name','$number','$date','$month','$amount','$status') ";
+    VALUES('$name','$number','$date','$month','$amount','$status','$property','$balance') ";
     $query_run = mysqli_query($connection,$query);
  
     if ($query_run) {
