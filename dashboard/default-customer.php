@@ -47,6 +47,14 @@ include('includes/navbar-customer.php');
                 <option value="Fine">Fine</option>
                 </select>
          </div>
+                   <div class="form-group">
+                <label>Property Location</label>
+                <input class="form-control" type="text" name="amount" placeholder="property *">
+         </div>
+                   <div class="form-group">
+                <label>Balance (GMD)</label>
+                <input class="form-control" type="number" name="amount" placeholder="balance in GMD *">
+         </div>
          <div class="form-group">
                 <label>Location (Property Location)</label>
                 <input class="form-control" type="text" name="property" placeholder="Location *">
