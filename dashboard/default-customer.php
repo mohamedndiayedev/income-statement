@@ -24,7 +24,7 @@ include('includes/navbar-customer.php');
 
         <div class="form-group">
                 <label>Plot Number</label>
-                <input class="form-control" type="text" name="number" placeholder="plot number *">
+                <input class="form-control" type="text" name="number" placeholder="Plot number *">
          </div>
 
          <div class="form-group">
@@ -35,19 +35,25 @@ include('includes/navbar-customer.php');
                 <label>Default Months</label>
                 <input class="form-control" type="number" name="month" placeholder="Default Months *">
          </div>
-
          <div class="form-group">
                 <label>Amount (GMD)</label>
                 <input class="form-control" type="number" name="amount" placeholder="Amount in GMD *">
          </div>
          <div class="form-group">
                 <div class="form-group">
-                <label for="status" class="form-control" type="text" placeholder="enter status *">Choose a Payment Status</label>
-
+                <label for="status" class="form-control" type="text" placeholder="Enter status *">Choose a Payment Status</label>
                 <select id="status" name="status">
-                <option value="Paid">Paid</option>
-                <option value="Not Paid">Not Paid</option>
+                <option value="Reinstate">Reinstate</option>
+                <option value="Fine">Fine</option>
                 </select>
+         </div>
+         <div class="form-group">
+                <label>Location (Property Location)</label>
+                <input class="form-control" type="number" name="property" placeholder="Location *">
+         </div>
+         <div class="form-group">
+                <label>Balance (Amount Left)</label>
+                <input class="form-control" type="number" name="balance" placeholder="Balance in GMD *">
          </div>
          </div>
 
@@ -90,6 +96,8 @@ include('includes/navbar-customer.php');
                             <th>Default Months</th>
                             <th>Amount (GMD)</th>
                             <th>Payment Status</th>
+                            <th>Location</th>
+                            <th>Balance (Amount Left)</th>
                             <th>Update</th>
                             <th>Delete</th>
                         </tr>
@@ -111,6 +119,8 @@ include('includes/navbar-customer.php');
                             <td><?php echo $row['month']; ?></td>
                             <td><?php echo $row['amount']; ?></td>
                             <td><?php echo $row['status']; ?></td>
+                            <td><?php echo $row['property']; ?></td>
+                            <td><?php echo $row['balance']; ?></td>
                             <td>
                               <form action="edit-customer.php" method="post">
                                 <input type="hidden" name="edit_id" value="<?php echo $row['id']; ?>"> 
