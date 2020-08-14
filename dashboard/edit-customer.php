@@ -54,7 +54,7 @@ if(isset($_POST['edit_btn']))
          </div>
          <div class="form-group">
                 <label>Property (Location)</label>
-                <input class="form-control" type="number" value="<?php echo $row['property'] ?>" name="property" placeholder="enter location *">
+                <input class="form-control" type="text" value="<?php echo $row['property'] ?>" name="property" placeholder="enter location *">
          </div>
          <div class="form-group">
                 <label>Balance (GMD)</label>
