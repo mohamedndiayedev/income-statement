@@ -48,9 +48,17 @@ if(isset($_POST['edit_btn']))
                 <label for="status" class="form-control" type="text" value="<?php echo $row['status'] ?>" placeholder="enter status *">Choose a Payment Status</label>
 
                 <select id="status" name="status">
-                <option value="Paid">Paid</option>
-                <option value="Not Paid">Not Paid</option>
+                <option value="Reinstate">Reinstate</option>
+                <option value="Fine">Fine</option>
                 </select>
+         </div>
+         <div class="form-group">
+                <label>Property (Location)</label>
+                <input class="form-control" type="number" value="<?php echo $row['property'] ?>" name="property" placeholder="enter location *">
+         </div>
+         <div class="form-group">
+                <label>Balance (GMD)</label>
+                <input class="form-control" type="number" value="<?php echo $row['balance'] ?>" name="balance" placeholder="enter balance *">
          </div>
         </div>
 
