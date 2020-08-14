@@ -9,10 +9,10 @@ session_start();
    $month = $_POST['month'];
    $amount = $_POST['amount'];
    $status = $_POST['status'];
-   $status = $_POST['property'];
-   $status = $_POST['balance'];
+   $property = $_POST['property'];
+   $balance = $_POST['balance'];
 
-    $query = "INSERT INTO customer (name,number,date,month,amount,status) 
+    $query = "INSERT INTO customer (name,number,date,month,amount,status,property,balance) 
     VALUES('$name','$number','$date','$month','$amount','$status','$property','$balance') ";
     $query_run = mysqli_query($connection,$query);
  
