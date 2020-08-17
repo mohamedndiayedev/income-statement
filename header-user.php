@@ -64,6 +64,12 @@
                         <p>Default Customer</p>
                     </a>
                 </li>
+			                <li>
+                    <a href="dashboard/agent-details.php">
+                        <i class="ti-files"></i>
+                        <p>Agent Details</p>
+                    </a>
+                </li>
                 
                 <li>
                     <a href="#">
