@@ -49,7 +49,7 @@ include('includes/scripts.php');
          </div>
          <div class="form-group">
                 <label>Update Date</label>
-                <input class="form-control" type="date" name="cheese7" placeholder="enter data *">
+                <input class="form-control" type="datetime-local" name="cheese7" placeholder="enter data *">
          </div>
          
         </div>
