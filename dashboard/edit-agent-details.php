@@ -55,7 +55,7 @@ if(isset($_POST['edit_btn']))
          </div>
          <div class="form-group">
                 <label>Update Date</label>
-                <input class="form-control" value="<?php echo $row['upd'] ?>" type="date" name="cheese7" placeholder="enter data *">
+                <input class="form-control" value="<?php echo $row['upd'] ?>" type="datetime-local" name="cheese7" placeholder="enter data *">
          </div>
 
          <a href="agent-details.php" class="btn btn-danger">Cancel</a>
