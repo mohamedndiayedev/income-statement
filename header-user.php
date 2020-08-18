@@ -70,6 +70,12 @@
                         <p>Agent Details</p>
                     </a>
                 </li>
+						                <li>
+                    <a href="dashboard/user-details.php">
+                        <i class="ti-files"></i>
+                        <p>Customer Details</p>
+                    </a>
+                </li>
                 
                 <li>
                     <a href="#">
