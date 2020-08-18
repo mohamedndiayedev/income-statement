@@ -109,7 +109,7 @@ include('includes/scripts.php');
         </h6><br/>
         <h6>
         <p><strong>Universal Properties.</strong></p>
-        <p><strong>Working Agent Details</strong></p>
+        <p><strong>Customer Details</strong></p>
      
         </h6>
      </div>
